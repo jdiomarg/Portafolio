@@ -856,8 +856,8 @@ cursor: pointer;
     .table {
         display: inline;
         width: 100%;
-        padding-left: 2em;
-        padding-right: 2em;
+        padding-left: 12em;
+        padding-right: 12em;
         color: gray;
         border-color: gray;
     
@@ -961,6 +961,3 @@ cursor: pointer;
     }
     
     }
-
-
-}
