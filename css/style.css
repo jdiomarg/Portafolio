@@ -39,6 +39,8 @@ a {
     margin-top: 40px;
     z-index: 1;
     width: 15em;
+    height: 15em;
+    border-radius: 50%;
 }
 
 .vector1 {
@@ -304,6 +306,8 @@ cursor: pointer;
         margin-top: 40px;
         z-index: 1;
         width: 20em;
+        height: 20em;
+        border-radius: 50%;
     }
 
     .vector2box {
@@ -425,7 +429,9 @@ a {
     margin-right: auto;
     margin-top: 40px;
     z-index: 1;
-    width: 15em;
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
 }
 
 .vector1 {
@@ -718,6 +724,8 @@ cursor: pointer;
         margin-top: 80px;
         z-index: 1;
         width: 25em;
+        height: 25em;
+        border-radius: 50%;
     }
     
     .vector1 {
@@ -785,7 +793,7 @@ cursor: pointer;
         margin: 0;
         position: block;
         display: flex;
-        margin-top: -400px;
+        margin-top: -450px;
         margin-bottom: -380px;
     }
     
@@ -964,12 +972,21 @@ cursor: pointer;
     }
 
     @media only screen and (min-width: 1300px) {
+       
+        .vector1 {
+            width: 100%;
+            margin-top: -100px;
+            position: absolute;
+            top: 15em;
+            z-index: -999;
+            }
+        
         .vector2box {
             width: 100%;
             margin: 0;
             position: block;
             display: flex;
-            margin-top: -500px;
-            margin-bottom: -450px;
+            margin-top: -550px;
+            margin-bottom: -470px;
         }
     }
